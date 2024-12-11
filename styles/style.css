@@ -223,7 +223,50 @@ button {
 
 .footer {
 	padding-top: 157px;
+	padding-bottom: 72px;
 	background: linear-gradient(180.00deg, rgba(217, 217, 217, 0),rgb(237, 166, 29) 100%);
+}
+
+.footer__link-list {
+	display: flex;
+	gap: 99px;
+	padding-left: 192px;
+	margin-bottom: 45px;
+	
+}
+
+.footer__link {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	transition: color ease-in-out .5s;
+}
+
+.footer__link:hover {
+	color: white;
+}
+
+.footer__descr {
+	display: flex;
+	flex-direction: column;
+	gap: 23px;
+	margin-bottom: 17px;
+	text-align: center;
+}
+
+.footer__copyright {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+.social-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 3px;
+	gap: 4px;
 }
 
 
