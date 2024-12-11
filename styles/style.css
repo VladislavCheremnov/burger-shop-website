@@ -78,13 +78,19 @@ body {
 	color: black;
 }
 
+.container {
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 0 87px;
+}
+
 button {
 	border: none;
 	background-color: transparent;
 	cursor: pointer;
 }
 
-/* header*/
+/* header */
 
 .header__container {
 	max-width: 1600px;
@@ -94,12 +100,13 @@ button {
 
 .header {
 	background: linear-gradient(180.00deg, rgb(237, 164, 24) 47.396%,rgba(237, 164, 24, 0) 100%);
+	margin-bottom: 106px;
 }
 
 .menu {
 	display: flex;
-	padding-top: 103px;
-	margin-bottom: 19px;
+	padding-top: 102px;
+	margin-bottom: 15px;
 }
 
 .header__logo {
@@ -145,7 +152,7 @@ button {
 }
 
 .header__title {
-	padding-top: 171px;
+	padding-top: 174px;
 	margin-bottom: 54px;
 	font-size: 32px;
 	font-weight: 800;
@@ -157,7 +164,7 @@ button {
 }
 
 .header__descr {
-	margin-bottom: 44px;
+	margin-bottom: 45px;
 }
 
 .header__order-btn {
@@ -180,4 +187,44 @@ button {
 	color: black;
 	background-color: #EDA418;
 }
+
+/* main */
+
+.main {
+	margin-bottom: 46px;
+}
+
+.main__title {
+	margin-bottom: 38px;
+	text-align: center;
+	font-size: 45px;
+	font-weight: 500;
+	line-height: 55px;
+}
+
+.main__cards-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 46px 38px;
+}
+
+.main__cards-img {
+	margin-bottom: 10px;
+}
+
+.main__cards-title {
+	text-align: center;
+	font-size: 35px;
+	font-weight: 500;
+	line-height: 43px;
+}
+
+/* footer */
+
+.footer {
+	padding-top: 157px;
+	background: linear-gradient(180.00deg, rgba(217, 217, 217, 0),rgb(237, 166, 29) 100%);
+}
+
+
 
